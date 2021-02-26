@@ -1,0 +1,5 @@
+# Disable the system copyright notice,
+# 	the date and time of the last login,
+# 	the message of the day as well as other info
+# 	that may otherwise appear on login.
+# 	See `man login`.
