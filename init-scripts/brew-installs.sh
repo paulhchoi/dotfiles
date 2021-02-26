@@ -1,4 +1,4 @@
-#!/usr/bin/env
+#!/bin/zsh
 
 # Install command-line tools using Homebrew.
 

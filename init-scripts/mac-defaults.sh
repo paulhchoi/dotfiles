@@ -1,4 +1,4 @@
-#!/usr/bin/env
+#!/bin/zsh
 
 # Set macOS defaults to how I like it
 #

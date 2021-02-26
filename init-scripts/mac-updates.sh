@@ -1,4 +1,4 @@
-#!/usr/bin/env
+#!/bin/zsh
 
 # Get Mac App store to update anything the brewfile script didn't get to
 #
