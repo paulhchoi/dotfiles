@@ -12,20 +12,17 @@ alias dt="cd ~/Desktop"
 alias p="cd ~/PROJECTS"
 alias g="git"
 
-alias d="sudo docker"
-alias m="mysql -u root -p"
+alias dock="sudo docker"
+alias my="mysql -u root -p"
 alias vi="vim"
 
 # Yarn Shortcuts
 alias y="yarn"
 alias yd="yarn dev"
-alias ybs="yarn build; yarn dev;"
+alias ybs="yarn build; yarn serve;"
 # alias yrw="yarn run watch"
 # alias yrp="yarn run prod"
 # alias gw="gulp watch"
-
-# PHP
-alias phprun "php -S localhost:8000 -t public"
 
 # Detect which `ls` flavor is in use, GNU or macOS
 if ls --color > /dev/null 2>&1; then # GNU `ls`
@@ -66,6 +63,9 @@ alias update='sudo softwareupdate -i -a; brew update; brew upgrade; brew cleanup
 # Google Chrome
 alias chrome='/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome'
 alias canary='/Applications/Google\ Chrome\ Canary.app/Contents/MacOS/Google\ Chrome\ Canary'
+
+# Firefox
+alias ffox='/Applications/Firefox.app/Contents/MacOS/firefox'
 
 # IP addresses
 alias ip="dig +short myip.opendns.com @resolver1.opendns.com"
