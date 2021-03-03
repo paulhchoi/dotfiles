@@ -148,6 +148,8 @@ set splitbelow
 "set delay of ESC key
 set timeoutlen=1000 ttimeoutlen=0
 
+" allows cursor to go to the end of line with g$
+set virtualedit+=onemore
 
 " Strip trailing whitespace (,ss)
 function! StripWhitespace()
@@ -187,3 +189,6 @@ inoremap <Right> <ESC>:echoe "Use l"<CR>
 inoremap <Up>    <ESC>:echoe "Use k"<CR>
 inoremap <Down>  <ESC>:echoe "Use j"<CR>
 
+" Remap VIM 1 to first non-blank character and 2 to the last non-blank character
+nnoremap 1 ^
+nnoremap 2 g$

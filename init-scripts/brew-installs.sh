@@ -82,6 +82,8 @@ brew install mozjpeg
 brew install node
 brew install yarn
 brew install mozjpeg
+brew install fzf
+brew install fd
 
 # Remove outdated versions from the cellar.
 brew cleanup

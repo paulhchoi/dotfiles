@@ -129,6 +129,11 @@
 	# https://help.github.com/articles/signing-commits-using-gpg/
 	gpgsign = true
 
+[gpg]
+
+	# GPG signing key
+	program = gpg
+
 [diff]
 
 	# Detect copies as well as renames.
